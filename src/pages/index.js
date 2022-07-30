@@ -8,12 +8,10 @@ import {
 export default function Home() {
   return (
     <div>
-      <Alert status="error">
+      <Alert status="success">
         <AlertIcon />
-        <AlertTitle>Your browser is outdated!</AlertTitle>
-        <AlertDescription>
-          Your Chakra experience may be degraded.
-        </AlertDescription>
+        <AlertTitle>Home!</AlertTitle>
+        <AlertDescription>Setup with Nextjs and Chakra UI.</AlertDescription>
       </Alert>
     </div>
   )
