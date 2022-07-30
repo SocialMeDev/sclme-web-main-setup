@@ -2,8 +2,8 @@ import {
   Alert,
   AlertIcon,
   AlertTitle,
-  AlertDescription,
-} from "@chakra-ui/react";
+  AlertDescription
+} from '@chakra-ui/react'
 
 export default function Home() {
   return (
@@ -16,5 +16,5 @@ export default function Home() {
         </AlertDescription>
       </Alert>
     </div>
-  );
+  )
 }
