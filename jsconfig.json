@@ -1,0 +1,23 @@
+{
+  "compilerOptions": {
+    "allowSyntheticDefaultImports": false,
+    "baseUrl": "./src",
+    "module": "es2015",
+    "moduleResolution": "node",
+    "outDir": "./build",
+    "paths": {
+      //"@config": ["./src/config/config"]
+    },
+    "sourceMap": true,
+    "target": "es5"
+  },
+  "exclude": [
+    "build",
+    "config",
+    "coverage",
+    "node_modules",
+    "public",
+    "scripts"
+  ],
+  "include": ["./src/**/*"]
+}
